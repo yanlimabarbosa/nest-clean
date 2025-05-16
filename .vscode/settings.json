@@ -1,0 +1,51 @@
+{
+    // Code formatting & linting
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "always"
+    },
+    "editor.defaultFormatter": null,
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    // ESLint config
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "eslint.run": "onSave",
+    "eslint.options": {
+        "extensions": [
+            ".js",
+            ".jsx",
+            ".ts",
+            ".tsx"
+        ]
+    },
+    // Git
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    // TypeScript & JS improvements
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    // Diff viewer
+    "diffEditor.ignoreTrimWhitespace": false,
+    // Terminal profile (optional, depends on team OS)
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+  // Hide the Command Center if preferred
+  "window.commandCenter": true,
+  // End line of sequence
+  "files.eol": "\n"
+}
